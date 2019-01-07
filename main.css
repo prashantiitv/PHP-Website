@@ -1,0 +1,146 @@
+body {
+  background-color: #730090 !important;
+  font-family: "Open Sans",sans-serif;
+  margin: 0;    
+  overflow-x: hidden;
+}
+.logo{
+  margin-left: 2%;
+  block-size: 100px;
+  float: left;
+}
+.header-sub-links a:hover {
+  padding: 10px;
+  text-decoration: none;
+  color: white !important;
+  background-color: #df1075;
+}
+.links {
+  padding: 10px;
+  color: white;
+}
+.fa{
+	color: #009193;
+}
+.btn1 {
+	  background: #df1075;
+    color: white;
+    border: 0;
+    padding: 0.2% 6%;
+    margin: 1%;
+}
+.sub{
+  margin: 0;
+  padding: 0 3%;
+}
+.phone{
+  margin-left: 5%;
+  color: #009193;
+}
+.header-title {
+  padding: 50px;
+  margin: 0;
+}
+.header-sub-links {
+  padding-top: 10px;
+}
+.active {
+	display: -webkit-inline-box;
+}
+
+/* Slideshow*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.heading {
+  font-family: Verdana, sans-serif;
+  color: #009193;
+  font-size: 70px;
+  padding: 18%;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dotactive {
+  background-color: #df1075;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.mfp-hide {
+  display: none;
+}
+button.mfp-close{
+  overflow: visible;
+  cursor: pointer;
+  background: white !important;
+  border-radius: 100%;
+  -webkit-appearance:none;
+}
+.videoplay1, .videoplay2, .videoplay3, .videoplay4, .videoplay5, .videoplay6, .videoplay7, .videoplay8, .videoplay9, .videoplay10, .content, .dots{
+  text-align: center;
+  position: relative;
+}
+.botton{
+  margin: 10%;
+}
+.img{
+  margin: 3%;
+  height: 150px;
+  width: 150px;
+}
+.content .btn {
+    position: absolute;
+    transform: translate(-220%, 85%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.content .btn:hover {
+    color: #df1075;
+}
+.text{
+  color: #009193;
+  padding: 0;
+  font-weight: bold;
+}
+.white {
+  color: white;
+}
+.social{
+  font-size:36px !important;
+  color:white;
+  padding-left: 15%;
+}
